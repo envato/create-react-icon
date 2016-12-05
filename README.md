@@ -4,7 +4,9 @@
 [![Downloads][downloads-image]][downloads-url]
 [![js-standard-style][standard-image]][standard-url]
 
-Convert one or multiple svg files into React component, inspired by [react-icons](https://github.com/gorangajic/react-icons) project.
+Convert one or multiple svg files into inline-svg React component, inspired by [react-icons](https://github.com/gorangajic/react-icons) project.
+
+If you are wondering what the benefit is to use inline svg in React component, please check this post [Creating an SVG Icon System with React](https://css-tricks.com/creating-svg-icon-system-react/).
 
 ## Installation
 
@@ -55,6 +57,10 @@ export default (props) => {
   </div>)
 }
 ```
+
+## Roadmap
+
+* Make the base component configurable
 
 ## License
 
