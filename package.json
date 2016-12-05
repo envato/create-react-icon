@@ -1,0 +1,38 @@
+{
+  "name": "create-react-icon",
+  "version": "0.1.0",
+  "description": "convert one or multiple svg files into React component",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "bin": {
+    "create-react-icon": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/envato/create-react-icon.git"
+  },
+  "keywords": [
+    "svg",
+    "react",
+    "icon"
+  ],
+  "author": "Envato Foundation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/envato/create-react-icon/issues"
+  },
+  "homepage": "https://github.com/envato/create-react-icon#readme",
+  "dependencies": {
+    "camelcase": "^4.0.0",
+    "cheerio": "^0.22.0",
+    "lodash.foreach": "^4.5.0",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "titleize": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
+}
