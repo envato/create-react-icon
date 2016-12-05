@@ -1,4 +1,9 @@
 # create-react-icon
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Downloads][downloads-image]][downloads-url]
+[![js-standard-style][standard-image]][standard-url]
+
 Convert one or multiple svg files into React component, inspired by [react-icons](https://github.com/gorangajic/react-icons) project.
 
 ## Installation
@@ -54,3 +59,12 @@ export default (props) => {
 ## License
 
 MIT
+
+[npm-image]: https://img.shields.io/npm/v/create-react-icon.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/create-react-icon
+[travis-image]: https://img.shields.io/travis/fraserxu/create-react-icon/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/fraserxu/create-react-icon
+[downloads-image]: http://img.shields.io/npm/dm/create-react-icon.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/create-react-icon
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
+[standard-url]: https://github.com/feross/standard
