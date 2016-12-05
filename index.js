@@ -50,7 +50,7 @@ export default (props) => {
 mkdirp(distDir, (err) => {
   if (err) throw new Error('Error creating icons directory.')
 
-  src.map((iconPath) => {
+  src.forEach((iconPath) => {
     const id = path.basename(iconPath, '.svg')
     const svg = fs.readFileSync(iconPath, 'utf-8')
     let $ = cheerio.load(svg, {
@@ -63,6 +63,5 @@ mkdirp(distDir, (err) => {
     const componentString = createComponentString(viewBox, iconSvg, id)
 
     fs.writeFileSync(path.join(distDir, camelcase(id) + '.js'), componentString, 'utf-8')
-    return id
   })
 })

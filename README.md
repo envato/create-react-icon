@@ -1,5 +1,5 @@
 # create-react-icon
-Convert one or multiple svg files into React component
+Convert one or multiple svg files into React component, inspired by [react-icons](https://github.com/gorangajic/react-icons) project.
 
 ## Installation
 
