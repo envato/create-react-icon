@@ -39,7 +39,7 @@ import Icon from 'react-icon-base'
 export default (props) => {
   return (
     <Icon viewBox='${viewBox}' {...props}>
-      <title id='${titleize(name)}'>{props.title || '${titleize(name)}'}</title>
+      <title>{props.title || '${titleize(name)}'}</title>
       <g>${iconSvg}</g>
     </Icon>
   )

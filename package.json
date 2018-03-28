@@ -1,6 +1,6 @@
 {
   "name": "create-react-icon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "convert one or multiple svg files into React component",
   "main": "index.js",
   "scripts": {
