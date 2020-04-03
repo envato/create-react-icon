@@ -29,7 +29,7 @@
     "cheerio": "^0.22.0",
     "lodash.foreach": "^4.5.0",
     "minimist": "^1.2.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.4",
     "titleize": "^1.0.0"
   },
   "devDependencies": {
